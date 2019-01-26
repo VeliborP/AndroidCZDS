@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     //RSS link
     private final String RSS_link="https://czds.rs/feed/";
-    private final String RSS_to_Json_API = "https://api.rss2json.com/v1/api.json?rss_url=";
+    private final String RSS_to_Json_API = " https://api.rss2json.com/v1/api.json?rss_url=";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +29,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = findViewById(R.id.recyclerView);
-        LinearLayoutManager linearLayoutManager  = new LinearLayoutManager(getBaseContext(),LinearLayoutManager.VERTICAL,false);
-        recyclerView.setLayoutManager(linearLayoutManager);
+        //LinearLayoutManager linearLayoutManager  = new LinearLayoutManager(getBaseContext(),LinearLayoutManager.VERTICAL,false);
+        recyclerView.setLayoutManager(new GridLayoutManager(getBaseContext(), 2));
+
 
         loadRSS();
     }

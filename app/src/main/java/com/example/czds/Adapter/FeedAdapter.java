@@ -98,8 +98,11 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         if(holder instanceof ItemViewHolder) {
             ItemViewHolder itemViewHolder = (ItemViewHolder) holder;
+            String title = rssObject.getItems().get(position).getTitle();
+            if(title.length()>46)
+                title = title.substring(0, 46) + "...";
 
-            itemViewHolder.txtTitle.setText(rssObject.getItems().get(position).getTitle());
+            itemViewHolder.txtTitle.setText(title);
             itemViewHolder.txtPubDate.setText(rssObject.getItems().get(position).getPubDate());
 
             ((ItemViewHolder) holder).setItemClickListener(new ItemClickListener() {

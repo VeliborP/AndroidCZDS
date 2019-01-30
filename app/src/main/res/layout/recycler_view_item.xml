@@ -3,7 +3,7 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layoutNews"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="120dp"
     android:background="@android:drawable/dialog_holo_light_frame"
     android:padding="1dp">
 
@@ -21,7 +21,7 @@
         android:padding="5dp"
         android:paddingLeft="5dp"
         android:text="Title"
-        android:textSize="20sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/txtPubDate"
@@ -29,8 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:fadingEdge="horizontal|vertical"
-        android:padding="5dp"
         android:paddingLeft="6dp"
-        android:text="PubDate" />
+        android:text="PubDate"
+        android:textSize="12sp" />
 
 </TableLayout>

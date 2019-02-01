@@ -132,9 +132,20 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 public void onClick(View view, int position, boolean isLongClick) {
                     if(!isLongClick)
                     {
+                        int next;
                         Intent intent = new Intent(view.getContext(),vest.class);
                         intent.putExtra("Title", rssObject.getItems().get(position).getTitle());
                         intent.putExtra("Description", rssObject.getItems().get(position).getDescription());
+                        intent.putExtra("Link", rssObject.getItems().get(position).getLink());
+                        if(position > 7){
+                            intent.putExtra("SledecaVest1", rssObject.getItems().get(0).getTitle());
+                            intent.putExtra("SledecaVest2", rssObject.getItems().get(1).getTitle());
+                        }
+                        else{
+                            intent.putExtra("SledecaVest1", rssObject.getItems().get(position+1).getTitle());
+                            intent.putExtra("SledecaVest2", rssObject.getItems().get(position+2).getTitle());
+                        }
+
                         mContext.startActivity(intent);
 
                     }
@@ -145,7 +156,7 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.WRAP_CONTENT);
             FooterViewHolder footerViewHolder = (FooterViewHolder) holder;
-            params.weight = 3000;
+            params.weight = 500;
             footerViewHolder.itemView.setLayoutParams(params);
         }
 
@@ -154,7 +165,7 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     @Override
     public int getItemViewType(int position) {
         if (position == 10) {
-            return TYPE_FOOTER;
+            return 0;//return TYPE_FOOTER;
         }
         else if(position == 11) {
             return TYPE_HEADER;

@@ -69,10 +69,6 @@ public class MainActivity extends AppCompatActivity {
         url_get_data.append(RSS_link);
         loadRSSAsync.execute(url_get_data.toString());
     }
-    public void otvoriVest(View view){
-        Intent intent = new Intent(MainActivity.this,vest.class);
-        startActivity(intent);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

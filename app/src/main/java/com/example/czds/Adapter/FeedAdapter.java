@@ -3,17 +3,25 @@ package com.example.czds.Adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.czds.Interface.ItemClickListener;
+import com.example.czds.MainActivity;
+import com.example.czds.Model.Item;
 import com.example.czds.Model.RSSObject;
 import com.example.czds.R;
+import com.example.czds.vest;
 
+import java.util.ArrayList;
+
+import static android.support.v4.app.ActivityCompat.startActivityForResult;
+import static android.support.v4.content.ContextCompat.startActivity;
 
 
 class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener
@@ -63,6 +71,17 @@ class FooterViewHolder extends RecyclerView.ViewHolder
     }
 }
 
+class HeaderViewHolder extends RecyclerView.ViewHolder
+{
+
+    public ImageView imgLogo;
+
+    public HeaderViewHolder(View itemView) {
+        super(itemView);
+        imgLogo = itemView.findViewById(R.id.imageLogo);
+    }
+}
+
 public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private static final int TYPE_HEADER = 0;
@@ -89,7 +108,10 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             View itemView = inflater.inflate(R.layout.footer,parent,false);
             return new FooterViewHolder(itemView);
         }
-        else return null;
+        else {
+            View itemView = inflater.inflate(R.layout.header, parent,false);
+            return new HeaderViewHolder(itemView);
+        }
     }
 
 
@@ -110,23 +132,32 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 public void onClick(View view, int position, boolean isLongClick) {
                     if(!isLongClick)
                     {
-                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(rssObject.getItems().get(position).getLink()));
-                        mContext.startActivity(browserIntent);
+                        Intent intent = new Intent(view.getContext(),vest.class);
+                        intent.putExtra("Title", rssObject.getItems().get(position).getTitle());
+                        intent.putExtra("Description", rssObject.getItems().get(position).getDescription());
+                        mContext.startActivity(intent);
+
                     }
                 }
             });
         }
         if(holder instanceof FooterViewHolder){
-           // FooterViewHolder footerViewHolder = (FooterViewHolder) holder;
-            //footerViewHolder.txtFooter.setText("Text footera smor");
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                    ViewGroup.LayoutParams.WRAP_CONTENT);
+            FooterViewHolder footerViewHolder = (FooterViewHolder) holder;
+            params.weight = 3000;
+            footerViewHolder.itemView.setLayoutParams(params);
         }
 
     }
 
     @Override
     public int getItemViewType(int position) {
-        if (position >= rssObject.items.size()) {
+        if (position == 10) {
             return TYPE_FOOTER;
+        }
+        else if(position == 11) {
+            return TYPE_HEADER;
         }
         return TYPE_ITEM;
     }

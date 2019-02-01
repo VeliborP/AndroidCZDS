@@ -1,13 +1,14 @@
 package com.example.czds;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
+import android.view.View;
 
 import com.example.czds.Adapter.FeedAdapter;
 import com.example.czds.Common.HTTPDataHandler;
@@ -54,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 result = http.GetHTTPData(params[0]);
                 return  result;
             }
-
             @Override
             protected void onPostExecute(String s) {
                 mDialog.dismiss();
@@ -68,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder url_get_data = new StringBuilder(RSS_to_Json_API);
         url_get_data.append(RSS_link);
         loadRSSAsync.execute(url_get_data.toString());
+    }
+    public void otvoriVest(View view){
+        Intent intent = new Intent(MainActivity.this,vest.class);
+        startActivity(intent);
     }
 
     @Override

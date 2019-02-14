@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     >
     <item
+        android:id="@+id/btnAnalize"
+        android:title="Анализе" />
+    <item
+        android:id="@+id/btnMultimedija"
+        android:title="Мултимедија" />
+    <item
+        android:id="@+id/btnOnama"
+        android:title="О нама" />
+    <item
         android:id="@+id/btnKontakt"
-        android:title="Kontakt" />
+        android:title="Контакт" />
+    <item
+        android:id="@+id/btnAutori"
+        android:title="Аутори" />
 </menu>

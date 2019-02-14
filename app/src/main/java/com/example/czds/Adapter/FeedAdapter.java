@@ -2,7 +2,6 @@ package com.example.czds.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,16 +11,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.czds.Interface.ItemClickListener;
-import com.example.czds.MainActivity;
-import com.example.czds.Model.Item;
 import com.example.czds.Model.RSSObject;
 import com.example.czds.R;
 import com.example.czds.vest;
-
-import java.util.ArrayList;
-
-import static android.support.v4.app.ActivityCompat.startActivityForResult;
-import static android.support.v4.content.ContextCompat.startActivity;
 
 
 class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener
@@ -121,8 +113,8 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         if(holder instanceof ItemViewHolder) {
             ItemViewHolder itemViewHolder = (ItemViewHolder) holder;
             String title = rssObject.getItems().get(position).getTitle();
-            if(title.length()>46)
-                title = title.substring(0, 46) + "...";
+            if(title.length()>48)
+                title = title.substring(0, 48) + "...";
 
             itemViewHolder.txtTitle.setText(title);
             itemViewHolder.txtPubDate.setText(rssObject.getItems().get(position).getPubDate());
@@ -134,16 +126,25 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                     {
                         int next;
                         Intent intent = new Intent(view.getContext(),vest.class);
+                        //glavna vest
                         intent.putExtra("Title", rssObject.getItems().get(position).getTitle());
                         intent.putExtra("Description", rssObject.getItems().get(position).getDescription());
+                        intent.putExtra("Content", rssObject.getItems().get(position).getContent());
+                        intent.putExtra("PubDate", rssObject.getItems().get(position).getPubDate());
+                        intent.putExtra("Autor", rssObject.getItems().get(position).getAuthor());
                         intent.putExtra("Link", rssObject.getItems().get(position).getLink());
+                        //sledeca vest
                         if(position > 7){
                             intent.putExtra("SledecaVest1", rssObject.getItems().get(0).getTitle());
+                            intent.putExtra("SledecaVest1PubDate", rssObject.getItems().get(0).getPubDate());
                             intent.putExtra("SledecaVest2", rssObject.getItems().get(1).getTitle());
+                            intent.putExtra("SledecaVest2PubDate", rssObject.getItems().get(1).getPubDate());
                         }
                         else{
                             intent.putExtra("SledecaVest1", rssObject.getItems().get(position+1).getTitle());
+                            intent.putExtra("SledecaVest1PubDate", rssObject.getItems().get(position+1).getPubDate());
                             intent.putExtra("SledecaVest2", rssObject.getItems().get(position+2).getTitle());
+                            intent.putExtra("SledecaVest2PubDate", rssObject.getItems().get(position+2).getPubDate());
                         }
 
                         mContext.startActivity(intent);
@@ -164,17 +165,11 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     @Override
     public int getItemViewType(int position) {
-        if (position == 10) {
-            return 0;//return TYPE_FOOTER;
-        }
-        else if(position == 11) {
-            return TYPE_HEADER;
-        }
         return TYPE_ITEM;
     }
 
     @Override
     public int getItemCount() {
-        return rssObject.items.size()+2;
+        return rssObject.items.size();
     }
 }

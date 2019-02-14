@@ -21,6 +21,9 @@ import com.example.czds.Model.RSSObject;
 
 import java.io.InputStream;
 import java.net.URL;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClickListener{
 
@@ -61,6 +64,14 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
         String title = myIntent.getStringExtra("Title");
         String description= myIntent.getStringExtra("Description");
         String content = myIntent.getStringExtra("Content");
+        String regex = "<img?(.+)?\\s*\\/>";
+        Matcher m = Pattern.compile(regex).matcher(content);
+
+        List<String> imgUrls = null;
+        while(m.find()){
+            imgUrls.add(m.group());
+        }
+
 
         String[] Content = content.split("</p>");
 

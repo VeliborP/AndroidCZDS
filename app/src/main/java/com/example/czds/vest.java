@@ -1,5 +1,6 @@
 package com.example.czds;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
@@ -17,10 +18,13 @@ import android.widget.PopupMenu;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.czds.Model.RSSObject;
 
 import java.io.InputStream;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -34,10 +38,11 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
             textContent,
             tekstSledeca1,
             tekstSledeca2;
-    ImageView imgFb,imgYT,imgInsta,imgFbFooter,imgYtFooter, imgTwFooter;
+    ImageView imgFb,imgYT,imgInsta,imgFbFooter,imgYtFooter, imgTwFooter, imgVest;
     TextView fONama,fAnalize, fGostovanja, fEmisije, fTribine, fKontakt, fMilan, fNemanja,
             fOgnjen, fPetar, fSanja, fSrdjan, fPredrag, fObrad;
 
+    private Context mContext;
     RSSObject rssObject;
 
     @Override
@@ -52,6 +57,8 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
         tekstSledeca1 = findViewById(R.id.tekstSledeca1);
         tekstSledeca2 = findViewById(R.id.tekstSeldeca2);
 
+
+
         //glavna vest
         SetContentInViews();
         bindClicks();
@@ -64,13 +71,9 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
         String title = myIntent.getStringExtra("Title");
         String description= myIntent.getStringExtra("Description");
         String content = myIntent.getStringExtra("Content");
-        String regex = "<img?(.+)?\\s*\\/>";
-        Matcher m = Pattern.compile(regex).matcher(content);
+       // String regex = "<img?(.+)?\\s*\\/>";
 
-        List<String> imgUrls = null;
-        while(m.find()){
-            imgUrls.add(m.group());
-        }
+
 
 
         String[] Content = content.split("</p>");
@@ -81,9 +84,9 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
             if(img != null){
                 TextView txtView = new TextView(this);
                 txtView.setText(Html.fromHtml(cont));
-                ImageView imgView = new ImageView(this);
-                imgView.setImageDrawable(img);
-                layout.addView(imgView);
+               // ImageView imgView = imgVest;
+                imgVest.setImageDrawable(img);
+                layout.addView(imgVest);
             }
             else{
 
@@ -109,16 +112,47 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
         tekstSledeca1.setText(sledeca1 + "\n" + sledeca1PubDate);
         tekstSledeca2.setText(sledeca2 + "\n" + sledeca2PubDate);
     }
-    private static Drawable getImgUrl(String content){
-        String imgUrl = content.substring(content.indexOf("src=")+5, content.indexOf("jpg")+3);
-        try {
-            InputStream is = (InputStream) new URL(imgUrl).getContent();
-            Drawable d = Drawable.createFromStream(is, null);
-            return d;
-        } catch (Exception e) {
-            return null;
+    private Drawable getImgUrl(String content) {
+
+        String imgUrl = content.substring(content.indexOf("src=") + 5, content.indexOf("jpg") + 3);
+
+        Matcher m = Pattern.compile(imgUrl).matcher(content);
+
+        ArrayList<String> ImgUrl = new ArrayList<>();
+        while(m.find()){
+            ImgUrl.add(m.group(0));
         }
+        if(ImgUrl != null){
+
+            System.out.println(ImgUrl);
+        }
+
+        imgVest = (ImageView) findViewById(R.id.VestSlika);
+
+        try {
+            Glide.with(mContext)
+                    .load(ImgUrl) // image url
+                    //  .placeholder(R.id.progressBar) // any placeholder to load at start
+                    //   .error(R.drawable.imagenotfound)  // any image in case of error
+                    .override(200, 200) // resizing
+                    .crossFade()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .centerCrop()
+                    .into(imgVest); // imageview object
+        } catch (Exception e) {
+
+            System.out.print("Cannot load image, resource not found.");
+        }
+
+        return null;
     }
+     //   try {
+    //        InputStream is = (InputStream) new URL(imgUrl).getContent();
+    //        Drawable d = Drawable.createFromStream(is, null);
+   //         return d;
+   //     } catch (Exception e) {
+   //         return null;
+   //     }
 
     private void bindClicks(){
         imgFb = findViewById(R.id.imgFb);

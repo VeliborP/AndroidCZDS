@@ -11,6 +11,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     ImageView imgFb,imgYT,imgInsta,imgFbFooter,imgYtFooter, imgTwFooter;
     TextView fONama,fAnalize, fGostovanja, fEmisije, fTribine, fKontakt, fMilan, fNemanja,
     fOgnjen, fPetar, fSanja, fSrdjan, fPredrag, fObrad;
+    WebView videoView;
     //RSS link
     private final String RSS_link="https://czds.rs/feed/";
     private final String RSS_to_Json_API = " https://api.rss2json.com/v1/api.json?rss_url=";
@@ -36,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        videoView = findViewById(R.id.videoViewHome);
 
         bindClicks();
         bindFooterClicks();
@@ -43,6 +47,13 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         recyclerView.setNestedScrollingEnabled(false);
         recyclerView.setLayoutManager(new GridLayoutManager(getBaseContext(), 2));
         loadRSS();
+        SetVideoView();
+    }
+
+    private void SetVideoView(){
+        videoView.loadData("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/ovy6k5PPMsI\" frameborder=\"0\" allowfullscreen></iframe>", "text/html" , "utf-8");
+        WebSettings webSettings = videoView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
     }
 
     private void bindClicks(){

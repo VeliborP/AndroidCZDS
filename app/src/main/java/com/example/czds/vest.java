@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -13,10 +14,14 @@ import android.text.Layout;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.ImageView;
+import android.widget.MediaController;
 import android.widget.PopupMenu;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.VideoView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -42,8 +47,10 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
     TextView fONama,fAnalize, fGostovanja, fEmisije, fTribine, fKontakt, fMilan, fNemanja,
             fOgnjen, fPetar, fSanja, fSrdjan, fPredrag, fObrad;
 
+
     private Context mContext;
-    RSSObject rssObject;
+
+    WebView videoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,14 +63,22 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
         textContent = findViewById(R.id.textContent);
         tekstSledeca1 = findViewById(R.id.tekstSledeca1);
         tekstSledeca2 = findViewById(R.id.tekstSeldeca2);
+        videoView = findViewById(R.id.videoView);
 
 
 
         //glavna vest
         SetContentInViews();
+        SetVideoView();
         bindClicks();
         bindFooterClicks();
 
+    }
+
+    private void SetVideoView(){
+        videoView.loadData("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/ovy6k5PPMsI\" frameborder=\"0\" allowfullscreen></iframe>", "text/html" , "utf-8");
+        WebSettings webSettings = videoView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
     }
 
     private void SetContentInViews() {
@@ -71,6 +86,7 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
         String title = myIntent.getStringExtra("Title");
         String description= myIntent.getStringExtra("Description");
         String content = myIntent.getStringExtra("Content");
+
        // String regex = "<img?(.+)?\\s*\\/>";
 
 
@@ -96,6 +112,7 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
 
         }
 
+
         String pubDate= myIntent.getStringExtra("PubDate");
         String autor= myIntent.getStringExtra("Autor");
         String link = myIntent.getStringExtra("Link");
@@ -114,8 +131,13 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
     }
     private Drawable getImgUrl(String content) {
 
-        String imgUrl = content.substring(content.indexOf("src=") + 5, content.indexOf("jpg") + 3);
-
+        String imgUrl = "";
+        try {
+            imgUrl = content.substring(content.indexOf("src=") + 5, content.indexOf("jpg") + 3);
+        }
+        catch (Exception e){
+            System.out.println("nema slike za url");
+        }
         Matcher m = Pattern.compile(imgUrl).matcher(content);
 
         ArrayList<String> ImgUrl = new ArrayList<>();

@@ -1,5 +1,6 @@
 package com.example.czds;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -68,8 +69,9 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
 
 
         //glavna vest
-        SetContentInViews();
+
         SetVideoView();
+        SetContentInViews();
         bindClicks();
         bindFooterClicks();
 
@@ -81,16 +83,14 @@ public class vest extends AppCompatActivity implements  PopupMenu.OnMenuItemClic
         webSettings.setJavaScriptEnabled(true);
     }
 
+    @SuppressLint("SetTextI18n")
     private void SetContentInViews() {
         Intent myIntent = getIntent();
         String title = myIntent.getStringExtra("Title");
         String description= myIntent.getStringExtra("Description");
         String content = myIntent.getStringExtra("Content");
 
-       // String regex = "<img?(.+)?\\s*\\/>";
-
-
-
+        String regex = "<img?(.+)?\\s*\\/>";
 
         String[] Content = content.split("</p>");
 

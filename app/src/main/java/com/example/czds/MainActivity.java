@@ -332,7 +332,9 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
         switch (item.getItemId()){
         case R.id.btnKontakt:
-            Intent intent = new Intent(this,Kontakt.class);
+            //Intent intent = new Intent(this,Kontakt.class);
+            //this.startActivity(intent);
+            Intent intent = new Intent(this,WebViewActivity.class);
             this.startActivity(intent);
         return true;
         case R.id.btnAnalize:

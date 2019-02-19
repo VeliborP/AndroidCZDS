@@ -2,6 +2,7 @@ package com.example.czds.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.SystemClock;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -106,7 +107,7 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         }
     }
 
-
+    private long mLastClickTime = 0;
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
 
@@ -124,7 +125,11 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 public void onClick(View view, int position, boolean isLongClick) {
                     if(!isLongClick)
                     {
-                        int next;
+                        if (SystemClock.elapsedRealtime() - mLastClickTime < 1000){
+                            return;
+                        }
+                        mLastClickTime = SystemClock.elapsedRealtime();
+
                         Intent intent = new Intent(view.getContext(),vest.class);
                         //glavna vest
                         intent.putExtra("Title", rssObject.getItems().get(position).getTitle());

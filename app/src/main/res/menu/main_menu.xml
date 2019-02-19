@@ -12,7 +12,7 @@
         android:title="О нама" />
     <item
         android:id="@+id/btnKontakt"
-        android:title="Контакт" />
+        android:title="Proba nova app" />
     <item
         android:id="@+id/btnAutori"
         android:title="Аутори" />

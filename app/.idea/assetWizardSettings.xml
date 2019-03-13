@@ -75,7 +75,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="scalingPercent" value="51" />
+                                                <entry key="scalingPercent" value="64" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -98,7 +98,10 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f6fffa" />
-                                      <entry key="foregroundImage" value="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\drawable\logo.png" />
+                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
+                                      <entry key="foregroundImage" value="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\drawable-xxhdpi\ic_launcher_round_new.png" />
+                                      <entry key="foregroundLayerName" value="ic_launcher_foreground" />
+                                      <entry key="outputName" value="ic_stat_onesignal_default" />
                                       <entry key="previewDensity" value="HIGH" />
                                     </map>
                                   </option>
@@ -166,7 +169,6 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="paddingPercent" value="5" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -177,12 +179,18 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\drawable\ic_czds_logo_200.xml" />
+                                      <entry key="imageAsset" value="C:\Users\PremcevskiV\Desktop\A\logo\notificationIcon.png" />
+                                      <entry key="outputName" value="ic_stat_onesignal_default" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="NOTIFICATION" />
                           </map>
                         </option>
                       </PersistentState>
@@ -204,11 +212,11 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="height" value="512" />
-                            <entry key="outputName" value="ic_003_instagram" />
+                            <entry key="height" value="70" />
+                            <entry key="outputName" value="ic_czds_logo_200" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\PremcevskiV\Desktop\A\my-icons-collection\003-instagram.svg" />
-                            <entry key="width" value="512" />
+                            <entry key="sourceFile" value="C:\Users\PremcevskiV\Desktop\A\CZDS-Logo-200.svg" />
+                            <entry key="width" value="200" />
                           </map>
                         </option>
                       </PersistentState>

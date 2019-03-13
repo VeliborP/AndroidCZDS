@@ -13,13 +13,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d125c1-b059-45d1-9f00-e5f60fd785d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/centar/zds/WebViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/launcher-round/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidTest/java/com/example/czds/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidTest/java/com/centar/zds/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Adapter/FeedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/czds/Adapter/FeedAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/czds/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/vest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/czds/vest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_vest2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_vest2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ic_launcher-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Adapter/FeedAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Common/FontAwsome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Common/HTTPDataHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Interface/ItemClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Kontakt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Model/Feed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Model/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/Model/RSSObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/WebViewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/czds/vest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-anydpi-v24/ic_stat_name.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/burger_slim_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_stat_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/yt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_stat_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/apaonelogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/footerimg123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/footerimg1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/footerimg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/green_triangle_10x9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_stat_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_stat_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_czds_logo_200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/ikona1.png/ikona.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_contact.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_vest2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/contact_form.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/footer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/recycler_view_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/main_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/czds/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/centar/zds/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +143,18 @@
     <session id="522792297">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.13" value="7" />
+          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="4" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
@@ -58,135 +162,65 @@
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="22" />
-          <entry key="gradle" value="15" />
-          <entry key="java" value="80" />
-          <entry key="png" value="52" />
-          <entry key="xml" value="117" />
+          <entry key="gradle" value="23" />
+          <entry key="html" value="4" />
+          <entry key="java" value="113" />
+          <entry key="png" value="109" />
+          <entry key="pro" value="1" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="22" />
-          <entry key="Groovy" value="15" />
-          <entry key="Image" value="52" />
-          <entry key="JAVA" value="80" />
-          <entry key="XML" value="117" />
+          <entry key="Groovy" value="23" />
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="109" />
+          <entry key="JAVA" value="113" />
+          <entry key="ProGuard File" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="6" />
-          <entry key="java" value="6072" />
+          <entry key="gradle" value="58" />
+          <entry key="html" value="253" />
+          <entry key="java" value="8070" />
           <entry key="txt" value="1070" />
-          <entry key="xml" value="2083" />
+          <entry key="xml" value="2271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="6072" />
+          <entry key="Groovy" value="58" />
+          <entry key="HTML" value="253" />
+          <entry key="JAVA" value="8070" />
           <entry key="PLAIN_TEXT" value="1070" />
-          <entry key="XML" value="2083" />
+          <entry key="XML" value="2271" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CZDS.git" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Looper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="167" selection-start-line="167" selection-end-line="167" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/vest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="82" column="47" selection-start-line="80" selection-start-column="8" selection-end-line="82" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/ActivityThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50303">
-              <caret line="3193" selection-start-line="3193" selection-end-line="3193" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/web_view.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/WebViewActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/201e4c21e337dc3808a518a36042b43e/jars/classes.jar!/android/support/v7/app/AppCompatActivity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="510">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -207,11 +241,12 @@
     <findStrings>
       <find>item</find>
       <find>getItemViewType</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\PremcevskiV\Desktop\A\czds.jks" />
-    <option name="KEY_ALIAS" value="key0" />
+    <option name="KEY_STORE_PATH" value="C:\Users\PremcevskiV\Desktop\A\apk\czdsRelease3.jks" />
+    <option name="KEY_ALIAS" value="Czds" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
@@ -227,14 +262,12 @@
         <option value="$PROJECT_DIR$/src/main/res/drawable/ic_czds_logo_200.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/czds/Common/FontAwsome.java" />
-        <option value="$PROJECT_DIR$/../build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/czds/Header.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/contact_form.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/header.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/recycler_view_item.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/footer.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/czds/YouTubeActivity.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/czds/Adapter/FeedAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/czds/vest.java" />
@@ -242,23 +275,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/czds/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/web_view.xml" />
         <option value="$PROJECT_DIR$/src/main/res/menu/main_menu.xml" />
+        <option value="$PROJECT_DIR$/src/main/assets/noInternet.html" />
+        <option value="$PROJECT_DIR$/src/main/assets/font.html" />
+        <option value="$PROJECT_DIR$/../build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/czds/Common/NotificationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/czds/WebViewActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/centar/czds/WebViewActivity.java" />
+        <option value="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/centar/zds/BuildConfig.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/centar/zds/WebViewActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages AndroidView="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -278,44 +323,26 @@
             </path>
             <path>
               <item name="CZDS.git" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="czds" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CZDS.git" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="CZDS.git" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="CZDS.git" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ExportApk.ApkPath" value="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\release" />
     <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="PAG4C17729003282" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/../../app" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../app" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/release" />
     <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
   <component name="RecentsManager">
@@ -330,11 +357,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\drawable-xxhdpi" />
-      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\layout" />
-      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\java\com\example\czds" />
-      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\drawable-xhdpi" />
-      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\ic_launcher_round-xhdpi" />
+      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\drawable-anydpi-v24" />
+      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\ikona" />
+      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\ikona1.png" />
+      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\res\launcher-round" />
+      <recent name="C:\Users\PremcevskiV\AndroidStudioProjects\czds\CZDS.git\app\src\main\java\com\example\czds\Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,11 +460,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+      <window_info id="Captures" order="0" sideWeight="0.50317127" side_tool="true" weight="0.23288591" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49682876" visible="true" weight="0.18496802" />
+      <window_info id="Structure" order="2" sideWeight="0.50317127" side_tool="true" weight="0.23288591" />
+      <window_info id="Favorites" order="3" sideWeight="0.50317127" side_tool="true" weight="0.23288591" />
+      <window_info id="Build Variants" order="4" sideWeight="0.50317127" side_tool="true" weight="0.23288591" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.3035461" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.43546098" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.5304965" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.18329719" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.4989339" visible="true" weight="0.18329719" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.3281471" />
+      <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49932885" weight="0.5347518" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+      <window_info anchor="right" id="Assistant" order="6" visible="true" weight="0.3295302" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15771812" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23288591" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -447,12 +500,12 @@
       <window_info anchor="bottom" id="Run" order="0" weight="0.3035461" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.43546098" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32907802" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.26666668" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.34815618" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50067115" side_tool="true" weight="0.27234042" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.24822696" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.4496454" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.3281471" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.055314533" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -460,7 +513,8 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Preview" order="5" />
-    </layout>
+      <window_info anchor="right" id="Assistant" order="6" visible="true" weight="0.3295302" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -469,298 +523,221 @@
     <watches-manager>
       <configuration name="app">
         <watch expression="((NetworkOnMainThreadException)e).cause" custom="android.os.NetworkOnMainThreadException" />
+        <watch expression="((NetworkOnMainThreadException)e).cause" custom="android.os.NetworkOnMainThreadException" />
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;&lt;!doctype html&gt;\n&lt;html lang=\&quot;sr-RS\&quot; prefix=\&quot;og: http://ogp.me/ns#\&quot;&gt;\n&lt;head&gt;\n    &lt;meta charset=\&quot;UTF-8\&quot;&gt;\n    &lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1\&quot;&gt;\n    &lt;link rel=\&quot;profile\&quot; href=\&quot;https://gmpg.org/xfn/11\&quot;&gt;\n    &lt;link href=\&quot;https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;amp;subset=cyrillic,latin-ext\&quot;\n          rel=\&quot;stylesheet\&quot;&gt;\n    &lt;link rel=\&quot;shortcut icon\&quot; href=\&quot;https://czds.rs/wp-content/themes/czds/favicon.png\&quot;/&gt;\n    &lt;title&gt;ПОЧЕТНА&lt;/title&gt;\n&lt;link rel=\&quot;alternate\&quot; hreflang=\&quot;en\&quot; href=\&quot;https://czds.rs/?lang=en\&quot; /&gt;\n&lt;link rel=\&quot;alternate\&quot; hreflang=\&quot;sr\&quot; href=\&quot;https://czds.rs\&quot; /&gt;\n\n&lt;!-- This site is optimized with the Yoast SEO plugin v9.0.3 - https://yoast.com/wordpress/plugins/seo/ --&gt;\n&lt;meta name=\&quot;description\&quot; content=\&quot;Почетна страна сајта организације &amp;quot;Центар за друштвену стабилност&amp;quot; у Новом Саду. Трибине, вести, видео галерија, информације о организацији...\&quot;/&gt;\n&lt;link rel=\&quot;canonical\&quot; href=\&quot;https://czds.rs/\&quot; /&gt;\n&lt;meta property=\&quot;og:locale\&quot; content=\&quot;sr_RS\&quot; /&gt;\n&lt;meta property=\&quot;og:type\&quot; content=\&quot;website\&quot; /&gt;\n&lt;meta property=\&quot;og:title\&quot; content=\&quot;ПОЧЕТНА\&quot; /&gt;\n&lt;meta property=\&quot;og:description\&quot; content=\&quot;Почетна страна сајта организације &amp;quot;Центар за друштвену стабилност&amp;quot; у Новом Саду. Трибине, вести, видео галерија, информације о организацији...\&quot; /&gt;\n&lt;meta property=\&quot;og:url\&quot; content=\&quot;https://czds.rs/\&quot; /&gt;\n&lt;meta property=\&quot;og:site_name\&quot; content=\&quot;Центар за друштвену стабилност\&quot; /&gt;\n&lt;meta name=\&quot;twitter:card\&quot; content=\&quot;summary_large_image\&quot; /&gt;\n&lt;meta name=\&quot;twitter:description\&quot; content=\&quot;Почетна страна сајта организације &amp;quot;Центар за друштвену стабилност&amp;quot; у Новом Саду. Трибине, вести, видео галерија, информације о организацији...\&quot; /&gt;\n&lt;meta name=\&quot;twitter:title\&quot; content=\&quot;ПОЧЕТНА\&quot; /&gt;\n&lt;script type='application/ld+json'&gt;{\&quot;@context\&quot;:\&quot;https:\\/\\/schema.org\&quot;,\&quot;@type\&quot;:\&quot;WebSite\&quot;,\&quot;@id\&quot;:\&quot;#website\&quot;,\&quot;url\&quot;:\&quot;https:\\/\\/czds.rs\\/\&quot;,\&quot;name\&quot;:\&quot;\\u0426\\u0435\\u043d\\u0442\\u0430\\u0440 \\u0437\\u0430 \\u0434\\u0440\\u0443\\u0448\\u0442\\u0432\\u0435\\u043d\\u0443 \\u0441\\u0442\\u0430\\u0431\\u0438\\u043b\\u043d\\u043e\\u0441\\u0442\&quot;,\&quot;potentialAction\&quot;:{\&quot;@type\&quot;:\&quot;SearchAction\&quot;,\&quot;target\&quot;:\&quot;https:\\/\\/czds.rs\\/?s={search_term_string}\&quot;,\&quot;query-input\&quot;:\&quot;required name=search_term_string\&quot;}}&lt;/script&gt;\n&lt;!-- / Yoast SEO plugin. --&gt;\n\n&lt;link rel='dns-prefetch' href='//use.fontawesome.com' /&gt;\n&lt;link rel='dns-prefetch' href='//s.w.org' /&gt;\n&lt;link rel=\&quot;alternate\&quot; type=\&quot;application/rss+xml\&quot; title=\&quot;Центар за друштвену стабилност &amp;raquo; довод\&quot; href=\&quot;https://czds.rs/feed/\&quot; /&gt;\n&lt;link rel=\&quot;alternate\&quot; type=\&quot;application/rss+xml\&quot; title=\&quot;Центар за друштвену стабилност &amp;raquo; довод коментара\&quot; href=\&quot;https://czds.rs/comments/feed/\&quot; /&gt;\n\t\t&lt;script type=\&quot;text/javascript\&quot;&gt;\n\t\t\twindow._wpemojiSettings = {\&quot;baseUrl\&quot;:\&quot;https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/72x72\\/\&quot;,\&quot;ext\&quot;:\&quot;.png\&quot;,\&quot;svgUrl\&quot;:\&quot;https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/svg\\/\&quot;,\&quot;svgExt\&quot;:\&quot;.svg\&quot;,\&quot;source\&quot;:{\&quot;concatemoji\&quot;:\&quot;https:\\/\\/czds.rs\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=5.0.3\&quot;}};\n\t\t\t!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline=\&quot;top\&quot;,l.font=\&quot;600 32px Arial\&quot;,a){case\&quot;flag\&quot;:return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&amp;&amp;(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case\&quot;emoji\&quot;:return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement(\&quot;script\&quot;);c.src=a,c.defer=c.type=\&quot;text/javascript\&quot;,b.getElementsByTagName(\&quot;head\&quot;)[0].appendChild(c)}var g,h,i,j,k=b.createElement(\&quot;canvas\&quot;),l=k.getContext&amp;&amp;k.getContext(\&quot;2d\&quot;);for(j=Array(\&quot;flag\&quot;,\&quot;emoji\&quot;),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i&lt;j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&amp;&amp;c.supports[j[i]],\&quot;flag\&quot;!==j[i]&amp;&amp;(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener(\&quot;DOMContentLoaded\&quot;,h,!1),a.addEventListener(\&quot;load\&quot;,h,!1)):(a.attachEvent(\&quot;onload\&quot;,h),b.attachEvent(\&quot;onreadystatechange\&quot;,function(){\&quot;complete\&quot;===b.readyState&amp;&amp;c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&amp;&amp;g.twemoji&amp;&amp;(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);\n\t\t&lt;/script&gt;\n\t\t&lt;style type=\&quot;text/css\&quot;&gt;\nimg.wp-smiley,\nimg.emoji {\n\tdisplay: inline !important;\n\tborder: none !important;\n\tbox-shadow: none !important;\n\theight: 1em !important;\n\twidth: 1em !important;\n\tmargin: 0 .07em !important;\n\tvertical-align: -0.1em !important;\n\tbackground: none !important;\n\tpadding: 0 !important;\n}\n&lt;/style&gt;\n&lt;link rel='stylesheet' id='contact-form-7-css'  href='https://czds.rs/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.5' type='text/css' media='all' /&gt;\n&lt;link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css'  href='//czds.rs/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.css?ver=1' type='text/css' media='all' /&gt;\n&lt;link rel='stylesheet' id='font-awesome-free-css'  href='//use.fontawesome.com/releases/v5.4.1/css/all.css?ver=5.0.3' type='text/css' media='all' /&gt;\n&lt;link rel='stylesheet' id='vendor-css-css'  href='https://czds.rs/wp-content/themes/czds/theme-css/vendor.css?ver=5.0.3' type='text/css' media='all' /&gt;\n&lt;link rel='stylesheet' id='style-css-css'  href='https://czds.rs/wp-content/themes/czds/theme-css/style.css?ver=5.0.3' type='text/css' media='all' /&gt;\n&lt;link rel='stylesheet' id='style-add-css'  href='https://czds.rs/wp-content/themes/czds/style-add.css?ver=5.0.3' type='text/css' media='all' /&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-includes/js/jquery/jquery.js?ver=1.12.4'&gt;&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'&gt;&lt;/script&gt;\n&lt;link rel='https://api.w.org/' href='https://czds.rs/wp-json/' /&gt;\n&lt;link rel=\&quot;EditURI\&quot; type=\&quot;application/rsd+xml\&quot; title=\&quot;RSD\&quot; href=\&quot;https://czds.rs/xmlrpc.php?rsd\&quot; /&gt;\n&lt;link rel=\&quot;wlwmanifest\&quot; type=\&quot;application/wlwmanifest+xml\&quot; href=\&quot;https://czds.rs/wp-includes/wlwmanifest.xml\&quot; /&gt; \n&lt;meta name=\&quot;generator\&quot; content=\&quot;WordPress 5.0.3\&quot; /&gt;\n&lt;link rel='shortlink' href='https://czds.rs/' /&gt;\n&lt;link rel=\&quot;alternate\&quot; type=\&quot;application/json+oembed\&quot; href=\&quot;https://czds.rs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fczds.rs%2F\&quot; /&gt;\n&lt;link rel=\&quot;alternate\&quot; type=\&quot;text/xml+oembed\&quot; href=\&quot;https://czds.rs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fczds.rs%2F&amp;#038;format=xml\&quot; /&gt;\n&lt;meta name=\&quot;generator\&quot; content=\&quot;WPML ver:8.0.6 stt:1,50;\&quot; /&gt;\n\n&lt;!-- WordPress Facebook Integration Begin --&gt;\n\n&lt;script type='text/javascript'&gt;\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;\nn.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,\ndocument,'script','https://connect.facebook.net/en_US/fbevents.js');\n&lt;/script&gt;\n\n&lt;script&gt;\nfbq('init', '1892950070798470', {}, {\n    \&quot;agent\&quot;: \&quot;wordpress-5.0.3-1.7.9\&quot;\n});\n\nfbq('track', 'PageView', {\n    \&quot;source\&quot;: \&quot;wordpress\&quot;,\n    \&quot;version\&quot;: \&quot;5.0.3\&quot;,\n    \&quot;pluginVersion\&quot;: \&quot;1.7.9\&quot;\n});\n&lt;/script&gt;\n&lt;!-- DO NOT MODIFY --&gt;\n&lt;!-- WordPress Facebook Integration end --&gt;\n    \n&lt;!-- Facebook Pixel Code --&gt;\n&lt;noscript&gt;\n&lt;img height=\&quot;1\&quot; width=\&quot;1\&quot; style=\&quot;display:none\&quot; alt=\&quot;fbpx\&quot;\nsrc=\&quot;https://www.facebook.com/tr?id=1892950070798470&amp;ev=PageView&amp;noscript=1\&quot;/&gt;\n&lt;/noscript&gt;\n&lt;!-- DO NOT MODIFY --&gt;\n&lt;!-- End Facebook Pixel Code --&gt;\n        \n    &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\n&lt;script async src=\&quot;https://www.googletagmanager.com/gtag/js?id=UA-12072409-45\&quot;&gt;&lt;/script&gt;\n&lt;script&gt;\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-12072409-45');\n&lt;/script&gt;\n&lt;/head&gt;\n\n&lt;body class=\&quot;home page-template-default page page-id-37 wp-custom-logo\&quot;&gt;\n&lt;div id=\&quot;page\&quot; class=\&quot;site\&quot;&gt;\n    &lt;a class=\&quot;skip-link screen-reader-text\&quot; href=\&quot;#content\&quot;&gt;Skip to content&lt;/a&gt;\n    &lt;div class=\&quot;mobile-soc d-block d-md-none\&quot;&gt;\n\n        &lt;div class=\&quot;mobile-top-line__soc-icons \&quot;&gt;\n            &lt;div class=\&quot;d-flex justify-content-center align-items-center\&quot;&gt;\n                &lt;a href=\&quot;https://www.facebook.com/centarzadrustvenustabilnost\&quot;\n                   class=\&quot;site-top-line__soc-icon soc-icon facebook\&quot; target=\&quot;_blank\&quot;&gt;\n                    &lt;i class=\&quot;fab fa-facebook-f\&quot;&gt;&lt;/i&gt;\n                &lt;/a&gt;\n                &lt;a href=\&quot;https://www.youtube.com/channel/UC_U9TPc4Gf5JVkutEyjAbhQ\&quot;\n                   class=\&quot;site-top-line__soc-icon soc-icon youtube\&quot; target=\&quot;_blank\&quot;&gt;\n                    &lt;i class=\&quot;fab fa-youtube\&quot;&gt;&lt;/i&gt;\n                &lt;/a&gt;\n                &lt;a href=\&quot;https://twitter.com/centarzds\&quot;\n                   class=\&quot;site-top-line__soc-icon soc-icon twitter\&quot; target=\&quot;_blank\&quot;&gt;\n                    &lt;i class=\&quot;fab fa-twitter\&quot;&gt;&lt;/i&gt;\n                &lt;/a&gt;\n            &lt;/div&gt;\n        &lt;/div&gt;\n\n    &lt;/div&gt;\n    &lt;div class=\&quot;site-top-line\&quot;&gt;\n        &lt;div class=\&quot;container\&quot;&gt;\n            &lt;div class=\&quot;row\&quot;&gt;\n                &lt;div class=\&quot;col-lg-4 col-md-6 d-none d-md-block\&quot;&gt;\n                    &lt;div class=\&quot;d-flex  align-items-center\&quot;&gt;\n                        &lt;a class=\&quot;site-top-line__email-link\&quot; href=\&quot;mailto:info@czds.rs\&quot;&gt;\n                            &lt;i class=\&quot;far fa-envelope mr-2\&quot;&gt;&lt;/i&gt; info@czds.rs                        &lt;/a&gt;\n                    &lt;/div&gt;\n                &lt;/div&gt;\n                &lt;div class=\&quot;col-lg-4  col-md-6 order-lg-3\&quot;&gt;\n                    &lt;div class=\&quot;d-flex justify-content-end  align-items-center \&quot;&gt;\n                        &lt;div class=\&quot;site-top-line__script-selector script-selected__cir mr-5\&quot;&gt;\n                            &lt;!-- One Line Template Start --&gt;\r\n&lt;span class=\&quot;stl_oneline\&quot;&gt;\r\n&lt;a href=\&quot;http://czds.rs/?script=cir\&quot;&gt;ћирилица&lt;/a&gt;\r\n/&lt;a href=\&quot;http://czds.rs/?script=lat\&quot;&gt;latinica&lt;/a&gt;\r\n\r\n&lt;/span&gt;\r\n&lt;!-- One Line Template End --&gt;                        &lt;/div&gt;\n                        &lt;div class=\&quot;site-top-line__lang-switch\&quot;&gt;\n                            \n&lt;div class=\&quot;wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-touch-device wpml-ls-legacy-list-horizontal\&quot;&gt;\n\t&lt;ul&gt;&lt;li class=\&quot;wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-first-item wpml-ls-item-legacy-list-horizontal\&quot;&gt;\n\t\t\t\t&lt;a href=\&quot;https://czds.rs/?lang=en\&quot; class=\&quot;wpml-ls-link\&quot;&gt;&lt;span class=\&quot;wpml-ls-native\&quot;&gt;English&lt;/span&gt;&lt;/a&gt;\n\t\t\t&lt;/li&gt;&lt;li class=\&quot;wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-sr wpml-ls-current-language wpml-ls-last-item wpml-ls-item-legacy-list-horizontal\&quot;&gt;\n\t\t\t\t&lt;a href=\&quot;https://czds.rs\&quot; class=\&quot;wpml-ls-link\&quot;&gt;&lt;span class=\&quot;wpml-ls-native\&quot;&gt;српски&lt;/span&gt;&lt;/a&gt;\n\t\t\t&lt;/li&gt;&lt;/ul&gt;\n&lt;/div&gt;                            &lt;ul&gt;&lt;/ul&gt;\n                        &lt;/div&gt;\n                    &lt;/div&gt;\n                &lt;/div&gt;\n                &lt;div class=\&quot;col-lg-4 col-md-12 site-top-line__soc-icons-col d-none d-md-block order-lg-2\&quot;&gt;\n                    &lt;div class=\&quot;site-top-line__soc-icons \&quot;&gt;\n                        &lt;div class=\&quot;d-flex justify-content-center align-items-center\&quot;&gt;\n                            &lt;a href=\&quot;https://www.facebook.com/centarzadrustvenustabilnost\&quot;\n                               class=\&quot;site-top-line__soc-icon soc-icon facebook\&quot; target=\&quot;_blank\&quot;&gt;\n                                &lt;i class=\&quot;fab fa-facebook-f\&quot;&gt;&lt;/i&gt;\n                            &lt;/a&gt;\n                            &lt;a href=\&quot;https://www.youtube.com/channel/UC_U9TPc4Gf5JVkutEyjAbhQ\&quot;\n                               class=\&quot;site-top-line__soc-icon soc-icon youtube\&quot; target=\&quot;_blank\&quot;&gt;\n                                &lt;i class=\&quot;fab fa-youtube\&quot;&gt;&lt;/i&gt;\n                            &lt;/a&gt;\n                            &lt;a href=\&quot;https://twitter.com/centarzds\&quot;\n                               class=\&quot;site-top-line__soc-icon soc-icon twitter\&quot; target=\&quot;_blank\&quot;&gt;\n                                &lt;i class=\&quot;fab fa-twitter\&quot;&gt;&lt;/i&gt;\n                            &lt;/a&gt;\n                        &lt;/div&gt;\n                    &lt;/div&gt;\n                    &lt;div class=\&quot;site-top-line__soc-icons-bg-mask\&quot;&gt;&lt;/div&gt;\n                    &lt;div class=\&quot;site-top-line__soc-icons-bg\&quot;&gt;&lt;/div&gt;\n                &lt;/div&gt;\n            &lt;/div&gt;\n        &lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;!-- ******************* The Navbar Area ******************* --&gt;\n    &lt;div id=\&quot;wrapper-navbar\&quot; itemscope itemtype=\&quot;http://schema.org/WebSite\&quot;&gt;\n        &lt;a class=\&quot;skip-link sr-only sr-only-focusable\&quot;\n           href=\&quot;#content\&quot;&gt;Skip to content&lt;/a&gt;\n        &lt;nav class=\&quot;navbar navbar-expand-lg   navbar-czds\&quot;&gt;\n            &lt;div class=\&quot;container\&quot;&gt;\n                                    &lt;div class=\&quot;navbar-brand mb-0\&quot;&gt;\n                        &lt;a rel=\&quot;home\&quot; href=\&quot;https://czds.rs/\&quot;\n                           title=\&quot;Центар за друштвену стабилност\&quot;\n                           itemprop=\&quot;url\&quot;&gt;\n                            &lt;img src=\&quot;https://czds.rs/wp-content/themes/czds/img/CZDS-Logo-200.svg\&quot; width=\&quot;200\&quot;\n                                 height=\&quot;70\&quot; alt=\&quot;CZDS Logo\&quot;/&gt;\n                        &lt;/a&gt;\n                    &lt;/div&gt;\n\n                                &lt;button class=\&quot;navbar-toggler\&quot; type=\&quot;button\&quot; data-toggle=\&quot;collapse\&quot; data-target=\&quot;#navbarNavDropdown\&quot;\n                        aria-controls=\&quot;navbarNavDropdown\&quot; aria-expanded=\&quot;false\&quot;\n                        aria-label=\&quot;Toggle navigation\&quot;&gt;\n                    &lt;span class=\&quot;navbar-toggler-icon\&quot;&gt;\n                        &lt;i class=\&quot;fas fa-bars\&quot;&gt;&lt;/i&gt;\n                    &lt;/span&gt;\n                &lt;/button&gt;\n                &lt;div id=\&quot;navbarNavDropdown\&quot; class=\&quot;collapse navbar-collapse\&quot;&gt;&lt;ul id=\&quot;main-menu\&quot; class=\&quot;navbar-nav ml-auto\&quot;&gt;&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-46631\&quot; class=\&quot;menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item active menu-item-46631 nav-item\&quot;&gt;&lt;a title=\&quot;Почетна\&quot; href=\&quot;https://czds.rs/\&quot; class=\&quot;nav-link\&quot;&gt;Почетна&lt;/a&gt;&lt;/li&gt;\n&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49090\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-49090 nav-item\&quot;&gt;&lt;a title=\&quot;Анализе\&quot; href=\&quot;#\&quot; data-toggle=\&quot;dropdown\&quot; aria-haspopup=\&quot;true\&quot; aria-expanded=\&quot;false\&quot; class=\&quot;dropdown-toggle nav-link\&quot; id=\&quot;menu-item-dropdown-49090\&quot;&gt;Анализе&lt;/a&gt;\n&lt;ul class=\&quot;dropdown-menu\&quot; aria-labelledby=\&quot;menu-item-dropdown-49090\&quot; role=\&quot;menu\&quot;&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49093\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49093 nav-item\&quot;&gt;&lt;a title=\&quot;Све анализе\&quot; href=\&quot;https://czds.rs/kat/analize/\&quot; class=\&quot;dropdown-item\&quot;&gt;Све анализе&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-48978\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48978 nav-item\&quot;&gt;&lt;a title=\&quot;Геополитика\&quot; href=\&quot;https://czds.rs/kat/analize/geopolitika/\&quot; class=\&quot;dropdown-item\&quot;&gt;Геополитика&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-48979\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48979 nav-item\&quot;&gt;&lt;a title=\&quot;Политичке биографије\&quot; href=\&quot;https://czds.rs/kat/analize/politicke-biografije/\&quot; class=\&quot;dropdown-item\&quot;&gt;Политичке биографије&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-48980\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48980 nav-item\&quot;&gt;&lt;a title=\&quot;Историја\&quot; href=\&quot;https://czds.rs/kat/analize/istorija/\&quot; class=\&quot;dropdown-item\&quot;&gt;Историја&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49091\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-49091 nav-item\&quot;&gt;&lt;a title=\&quot;Мултимедија\&quot; href=\&quot;#\&quot; data-toggle=\&quot;dropdown\&quot; aria-haspopup=\&quot;true\&quot; aria-expanded=\&quot;false\&quot; class=\&quot;dropdown-toggle nav-link\&quot; id=\&quot;menu-item-dropdown-49091\&quot;&gt;Мултимедија&lt;/a&gt;\n&lt;ul class=\&quot;dropdown-menu\&quot; aria-labelledby=\&quot;menu-item-dropdown-49091\&quot; role=\&quot;menu\&quot;&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49073\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49073 nav-item\&quot;&gt;&lt;a title=\&quot;Трибине\&quot; href=\&quot;https://czds.rs/kat/tribine/\&quot; class=\&quot;dropdown-item\&quot;&gt;Трибине&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49074\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49074 nav-item\&quot;&gt;&lt;a title=\&quot;Гостовања\&quot; href=\&quot;https://czds.rs/kat/gostovanja/\&quot; class=\&quot;dropdown-item\&quot;&gt;Гостовања&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49075\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49075 nav-item\&quot;&gt;&lt;a title=\&quot;Емисије\&quot; href=\&quot;https://czds.rs/kat/emisije/\&quot; class=\&quot;dropdown-item\&quot;&gt;Емисије&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49092\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-49092 nav-item\&quot;&gt;&lt;a title=\&quot;О нама\&quot; href=\&quot;#\&quot; data-toggle=\&quot;dropdown\&quot; aria-haspopup=\&quot;true\&quot; aria-expanded=\&quot;false\&quot; class=\&quot;dropdown-toggle nav-link\&quot; id=\&quot;menu-item-dropdown-49092\&quot;&gt;О нама&lt;/a&gt;\n&lt;ul class=\&quot;dropdown-menu\&quot; aria-labelledby=\&quot;menu-item-dropdown-49092\&quot; role=\&quot;menu\&quot;&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49076\&quot; class=\&quot;menu-item menu-item-type-post_type menu-item-object-page menu-item-49076 nav-item\&quot;&gt;&lt;a title=\&quot;Центар за друштвену стабилност\&quot; href=\&quot;https://czds.rs/o-nama/\&quot; class=\&quot;dropdown-item\&quot;&gt;Центар за друштвену стабилност&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49082\&quot; class=\&quot;menu-item menu-item-type-post_type menu-item-object-page menu-item-49082 nav-item\&quot;&gt;&lt;a title=\&quot;Аутори\&quot; href=\&quot;https://czds.rs/autori/\&quot; class=\&quot;dropdown-item\&quot;&gt;Аутори&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49130\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-49130 nav-item\&quot;&gt;&lt;a title=\&quot;Архива\&quot; href=\&quot;#\&quot; data-toggle=\&quot;dropdown\&quot; aria-haspopup=\&quot;true\&quot; aria-expanded=\&quot;false\&quot; class=\&quot;dropdown-toggle nav-link\&quot; id=\&quot;menu-item-dropdown-49130\&quot;&gt;Архива&lt;/a&gt;\n&lt;ul class=\&quot;dropdown-menu\&quot; aria-labelledby=\&quot;menu-item-dropdown-49130\&quot; role=\&quot;menu\&quot;&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49131\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-49131 nav-item\&quot;&gt;&lt;a title=\&quot;Анализе - Немања Старовић\&quot; href=\&quot;/index.php/kat/analize/?czds_author=nemanja\&quot; class=\&quot;dropdown-item\&quot;&gt;Анализе &amp;#8211; Немања Старовић&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49132\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-49132 nav-item\&quot;&gt;&lt;a title=\&quot;Анализе - Огњен Карановић\&quot; href=\&quot;/index.php/kat/analize/?czds_author=ognjen\&quot; class=\&quot;dropdown-item\&quot;&gt;Анализе &amp;#8211; Огњен Карановић&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49133\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-49133 nav-item\&quot;&gt;&lt;a title=\&quot;Анализе - Предраг Рајић\&quot; href=\&quot;/index.php/kat/analize/?czds_author=predrag\&quot; class=\&quot;dropdown-item\&quot;&gt;Анализе &amp;#8211; Предраг Рајић&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49134\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-49134 nav-item\&quot;&gt;&lt;a title=\&quot;Анализе - Сања Шифлиш\&quot; href=\&quot;/index.php/kat/analize/?czds_author=sanja\&quot; class=\&quot;dropdown-item\&quot;&gt;Анализе &amp;#8211; Сања Шифлиш&lt;/a&gt;&lt;/li&gt;\n\t&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-49135\&quot; class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-49135 nav-item\&quot;&gt;&lt;a title=\&quot;Анализе - Срђан Граовац\&quot; href=\&quot;/index.php/kat/analize/?czds_author=srdjan\&quot; class=\&quot;dropdown-item\&quot;&gt;Анализе &amp;#8211; Срђан Граовац&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li itemscope=\&quot;itemscope\&quot; itemtype=\&quot;https://www.schema.org/SiteNavigationElement\&quot; id=\&quot;menu-item-46702\&quot; class=\&quot;menu-item menu-item-type-post_type menu-item-object-page menu-item-46702 nav-item\&quot;&gt;&lt;a title=\&quot;Контакт\&quot; href=\&quot;https://czds.rs/kontakt/\&quot; class=\&quot;nav-link\&quot;&gt;Контакт&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;/div&gt;            &lt;/div&gt;\n        &lt;/nav&gt;\n    &lt;/div&gt;\n    &lt;div id=\&quot;content\&quot; class=\&quot;site-content\&quot;&gt;\n\r\n\r\n\r\n&lt;div class=\&quot;container\&quot;&gt;\r\n    &lt;div id=\&quot;homeslider\&quot;&gt;\r\n                    &lt;div class=\&quot;home-slide-single\&quot;&gt;\r\n                &lt;div class=\&quot;home-slide-single__inner\&quot;&gt;\r\n\r\n                                                                        &lt;a href=\&quot;https://czds.rs/stabilokratija-milomir-maric-amerika-i-kina-se-bore-za-tron-svetom-vlada-goli-interes/\&quot;\r\n                               class=\&quot;home_slider_link\&quot;&gt;\r\n                                &lt;img src=\&quot;https://czds.rs/wp-content/uploads/2019/02/slajder_fotografije1.jpg\&quot; alt=\&quot;\&quot; title=\&quot;slajder_fotografije1\&quot;/&gt;\r\n                            &lt;/a&gt;\r\n                                                                \r\n                &lt;/div&gt;\r\n\r\n\r\n            &lt;/div&gt;\r\n\r\n                    &lt;div class=\&quot;home-slide-single\&quot;&gt;\r\n                &lt;div class=\&quot;home-slide-single__inner\&quot;&gt;\r\n\r\n                                                                        &lt;img src=\&quot;https://czds.rs/wp-content/uploads/2018/12/slider3.jpg\&quot; alt=\&quot;\&quot; title=\&quot;slider3\&quot;/&gt;\r\n                                                                \r\n                &lt;/div&gt;\r\n\r\n\r\n            &lt;/div&gt;\r\n\r\n                    &lt;div class=\&quot;home-slide-single\&quot;&gt;\r\n                &lt;div class=\&quot;home-slide-single__inner\&quot;&gt;\r\n\r\n                                                                        &lt;img src=\&quot;https://czds.rs/wp-content/uploads/2018/12/slier2.jpg\&quot; alt=\&quot;\&quot; title=\&quot;slier2\&quot;/&gt;\r\n                                                                \r\n                &lt;/div&gt;\r\n\r\n\r\n            &lt;/div&gt;\r\n\r\n                    &lt;div class=\&quot;home-slide-single\&quot;&gt;\r\n                &lt;div class=\&quot;home-slide-single__inner\&quot;&gt;\r\n\r\n                                                                        &lt;img src=\&quot;https://czds.rs/wp-content/uploads/2018/12/slider1.jpg\&quot; alt=\&quot;\&quot; title=\&quot;slider1\&quot;/&gt;\r\n                                                                \r\n                &lt;/div&gt;\r\n\r\n\r\n            &lt;/div&gt;\r\n\r\n            &lt;/div&gt;\r\n    &lt;!--    &lt;div id=\&quot;home-slider-dots\&quot;&gt;&lt;/div&gt;--&gt;\r\n&lt;/div&gt;\r\n\r\n    &lt;div class=\&quot;container\&quot;&gt;\r\n        &lt;section class=\&quot;home-services-list home-sec\&quot;&gt;\r\n            &lt;div class=\&quot;row\&quot;&gt;\r\n                                        &lt;div class=\&quot;col-md-6 col-lg-3\&quot;&gt;\r\n                            &lt;div class=\&quot;home-service sh1-box\&quot;&gt;\r\n                                &lt;a class=\&quot;home-service__link\&quot; href=\&quot;https://czds.rs/kat/analize/\&quot;&gt;\r\n\r\n                                                                            &lt;img class=\&quot;home-service__img\&quot; src=\&quot;https://czds.rs/wp-content/uploads/2018/10/analiza-icon.png\&quot;\r\n                                             alt=\&quot;\&quot; title=\&quot;analiza-icon\&quot;/&gt;\r\n                                                                        &lt;span class=\&quot;home-service__spacer\&quot;&gt;\r\n                                        &lt;svg preserveAspectRatio=\&quot;none\&quot; viewBox=\&quot;0 0 100 20\&quot;&gt;\r\n                                            &lt;polygon points=\&quot;0,0 100,20 0,20\&quot; opacity=\&quot;1\&quot;&gt;&lt;/polygon&gt;\r\n                                        &lt;/svg&gt;\r\n                                    &lt;/span&gt;\r\n\r\n                                    &lt;div class=\&quot;home-service__body\&quot;&gt;\r\n                                        &lt;h4 class=\&quot;home-service__title\&quot;&gt;\r\n                                            Анализе                                        &lt;/h4&gt;\r\n                                        &lt;div class=\&quot;home-service__description\&quot;&gt;\r\n                                            Аналитички текстови&lt;br /&gt;\r\nчланова и сарадника&lt;br /&gt;\r\nЦЗДС                                        &lt;/div&gt;\r\n                                    &lt;/div&gt;\r\n                                    &lt;div class=\&quot;home-service__link-bg\&quot;&gt;&lt;/div&gt;\r\n                                &lt;/a&gt;\r\n                            &lt;/div&gt;\r\n                        &lt;/div&gt;\r\n                                            &lt;div class=\&quot;col-md-6 col-lg-3\&quot;&gt;\r\n                            &lt;div class=\&quot;home-service sh1-box\&quot;&gt;\r\n                                &lt;a class=\&quot;home-service__link\&quot; href=\&quot;https://czds.rs/kat/tribine/\&quot;&gt;\r\n\r\n                                                                            &lt;img class=\&quot;home-service__img\&quot; src=\&quot;https://czds.rs/wp-content/uploads/2018/10/tribina-icon.png\&quot;\r\n                                             alt=\&quot;\&quot; title=\&quot;tribina-icon\&quot;/&gt;\r\n                                                                        &lt;span class=\&quot;home-service__spacer\&quot;&gt;\r\n                                        &lt;svg preserveAspectRatio=\&quot;none\&quot; viewBox=\&quot;0 0 100 20\&quot;&gt;\r\n                                            &lt;polygon points=\&quot;0,0 100,20 0,20\&quot; opacity=\&quot;1\&quot;&gt;&lt;/polygon&gt;\r\n                                        &lt;/svg&gt;\r\n                                    &lt;/span&gt;\r\n\r\n                                    &lt;div class=\&quot;home-service__body\&quot;&gt;\r\n                                        &lt;h4 class=\&quot;home-service__title\&quot;&gt;\r\n                                            Трибине                                        &lt;/h4&gt;\r\n                                        &lt;div class=\&quot;home-service__description\&quot;&gt;\r\n                                            Велики број трибина&lt;br /&gt;\r\nодржан је у организацији&lt;br /&gt;\r\nЦЗДС                                        &lt;/div&gt;\r\n                                    &lt;/div&gt;\r\n                                    &lt;div class=\&quot;home-service__link-bg\&quot;&gt;&lt;/div&gt;\r\n                                &lt;/a&gt;\r\n                            &lt;/div&gt;\r\n                        &lt;/div&gt;\r\n                                            &lt;div class=\&quot;col-md-6 col-lg-3\&quot;&gt;\r\n                            &lt;div class=\&quot;home-service sh1-box\&quot;&gt;\r\n                                &lt;a class=\&quot;home-service__link\&quot; href=\&quot;https://czds.rs/kat/gostovanja/\&quot;&gt;\r\n\r\n                                                                            &lt;img class=\&quot;home-service__img\&quot; src=\&quot;https://czds.rs/wp-content/uploads/2018/10/gostovanje-icon.png\&quot;\r\n                                             alt=\&quot;\&quot; title=\&quot;gostovanje-icon\&quot;/&gt;\r\n                                                                        &lt;span class=\&quot;home-service__spacer\&quot;&gt;\r\n                                        &lt;svg preserveAspectRatio=\&quot;none\&quot; viewBox=\&quot;0 0 100 20\&quot;&gt;\r\n                                            &lt;polygon points=\&quot;0,0 100,20 0,20\&quot; opacity=\&quot;1\&quot;&gt;&lt;/polygon&gt;\r\n                                        &lt;/svg&gt;\r\n                                    &lt;/span&gt;\r\n\r\n                                    &lt;div class=\&quot;home-service__body\&quot;&gt;\r\n                                        &lt;h4 class=\&quot;home-service__title\&quot;&gt;\r\n                                            Гостовања                                        &lt;/h4&gt;\r\n                                        &lt;div class=\&quot;home-service__description\&quot;&gt;\r\n                                            Погледајте видео снимке&lt;br /&gt;\r\nса гостовања&lt;br /&gt;\r\nЦЗДС                                        &lt;/div&gt;\r\n                                    &lt;/div&gt;\r\n                                    &lt;div class=\&quot;home-service__link-bg\&quot;&gt;&lt;/div&gt;\r\n                                &lt;/a&gt;\r\n                            &lt;/div&gt;\r\n                        &lt;/div&gt;\r\n                                            &lt;div class=\&quot;col-md-6 col-lg-3\&quot;&gt;\r\n                            &lt;div class=\&quot;home-service sh1-box\&quot;&gt;\r\n                                &lt;a class=\&quot;home-service__link\&quot; href=\&quot;https://czds.rs/kat/emisije/\&quot;&gt;\r\n\r\n                                                                            &lt;img class=\&quot;home-service__img\&quot; src=\&quot;https://czds.rs/wp-content/uploads/2018/10/emisija-icon.png\&quot;\r\n                                             alt=\&quot;\&quot; title=\&quot;emisija-icon\&quot;/&gt;\r\n                                                                        &lt;span class=\&quot;home-service__spacer\&quot;&gt;\r\n                                        &lt;svg preserveAspectRatio=\&quot;none\&quot; viewBox=\&quot;0 0 100 20\&quot;&gt;\r\n                                            &lt;polygon points=\&quot;0,0 100,20 0,20\&quot; opacity=\&quot;1\&quot;&gt;&lt;/polygon&gt;\r\n                                        &lt;/svg&gt;\r\n                                    &lt;/span&gt;\r\n\r\n                                    &lt;div class=\&quot;home-service__body\&quot;&gt;\r\n                                        &lt;h4 class=\&quot;home-service__title\&quot;&gt;\r\n                                            Емисија                                        &lt;/h4&gt;\r\n                                        &lt;div class=\&quot;home-service__description\&quot;&gt;\r\n                                            Емисија из продукције&lt;br /&gt;\r\nЦЗДС                                        &lt;/div&gt;\r\n                                    &lt;/div&gt;\r\n                                    &lt;div class=\&quot;home-service__link-bg\&quot;&gt;&lt;/div&gt;\r\n                                &lt;/a&gt;\r\n                            &lt;/div&gt;\r\n                        &lt;/div&gt;\r\n                                &lt;/div&gt;\r\n        &lt;/section&gt;\r\n    &lt;/div&gt;\r\n\r\n\r\n    &lt;!--Najava Tribina START--&gt;\r\n\r\n    &lt;!--Najava Tribina END--&gt;\r\n\r\n\r\n    &lt;div class=\&quot;container\&quot;&gt;\r\n        &lt;div class=\&quot;row\&quot;&gt;\r\n            &lt;div class=\&quot;col-lg-8\&quot;&gt;\r\n                &lt;div id=\&quot;primary\&quot; class=\&quot;content-area\&quot;&gt;\r\n                    &lt;main id=\&quot;main\&quot; class=\&quot;site-main d-flex flex-wrap\&quot;&gt;\r\n                        \r\n                                                    &lt;!-- the loop --&gt;\r\n                            &lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/ceceni-spartanci-21-veka-drugi-deo/\&quot;&gt;\r\n            ЧЕЧЕНИ &amp;#8211; СПАРТАНЦИ 21. ВЕКА (ДРУГИ ДЕО)        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        25/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/predrag/\&quot; title=\&quot;Чланци од Предраг Рајић\&quot; rel=\&quot;author\&quot;&gt;Предраг Рајић&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/analize/\&quot; rel=\&quot;category tag\&quot;&gt;Анализе&lt;/a&gt;/&lt;a href=\&quot;https://czds.rs/kat/analize/geopolitika/\&quot; rel=\&quot;category tag\&quot;&gt;Геополитика&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Чеченија у жижу светских медија стиже повремено. У последње три деценије, највише пажње је окупирала током Првог и Другог чеченског рата, како су конфликти федералних власти и сепаратиста (1991. – 2000. године) уписани у руској историји. Но, ова република је и данас регија која плени особеностима и тешко јој је наћи пандана међу преосталим субјектима Руске Федерације.&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/ceceni-spartanci-21-veka-drugi-deo/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/stabilokratija-milomir-maric-amerika-i-kina-se-bore-za-tron-svetom-vlada-goli-interes/\&quot;&gt;\r\n            Стабилократија / Миломир Марић &amp;#8211; Америка и Кина се боре за трон, светом влада голи интерес        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        20/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/renata/\&quot; title=\&quot;Чланци од ЦЗДС\&quot; rel=\&quot;author\&quot;&gt;ЦЗДС&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__video\&quot;&gt;\r\n            &lt;span href=\&quot;#\&quot; class=\&quot;post-prev__video-icon soc-icon\&quot;&gt;\r\n                &lt;i class=\&quot;fas fa-video\&quot;&gt;&lt;/i&gt;\r\n            &lt;/span&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/emisije/\&quot; rel=\&quot;category tag\&quot;&gt;Емисије&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Свет је пред новим изазовима. Некада велике силе поново постају моћне. Кина се устремила на светски трон, САД пружају отпор, а некада моћне империје попут Ирана и Пољске поново долазе у светску жижу. Стабилност је зато кључни предуслов напретка сваког друштва. Ко чини кругове моћи? Чије су обавештајне службе најмоћније у Србији? Колико су заиста [&amp;hellip;]&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/stabilokratija-milomir-maric-amerika-i-kina-se-bore-za-tron-svetom-vlada-goli-interes/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/nordijske-zemlje-pregled-01-02-16-02-2019/\&quot;&gt;\r\n            Нордијске земље &amp;#8211; преглед 01.02. &amp;#8211; 16.02.2019.        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        18/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/sanja/\&quot; title=\&quot;Чланци од Сања Шифлиш\&quot; rel=\&quot;author\&quot;&gt;Сања Шифлиш&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/analize/\&quot; rel=\&quot;category tag\&quot;&gt;Анализе&lt;/a&gt;/&lt;a href=\&quot;https://czds.rs/kat/analize/geopolitika/\&quot; rel=\&quot;category tag\&quot;&gt;Геополитика&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Најновија дешавања у Нордијским земљама, од посете државног секретара САД Мајка Помпеа Исланду и њихово председавање Арктичким саветом, до припрема за изборе за Европски парламент за Шведску, Данску и Финску.&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/nordijske-zemlje-pregled-01-02-16-02-2019/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/analiza-stanja-politickih-odnosa-u-regionu-u-prvoj-polovini-februara-2019-godine/\&quot;&gt;\r\n            АНАЛИЗА СТАЊА ПОЛИТИЧКИХ ОДНОСА У РЕГИОНУ У ПРВОЈ ПОЛОВИНИ ФЕБРУАРА 2019. ГОДИНЕ        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        14/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/srdjan/\&quot; title=\&quot;Чланци од Срђан Граовац\&quot; rel=\&quot;author\&quot;&gt;Срђан Граовац&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/analize/\&quot; rel=\&quot;category tag\&quot;&gt;Анализе&lt;/a&gt;/&lt;a href=\&quot;https://czds.rs/kat/analize/geopolitika/\&quot; rel=\&quot;category tag\&quot;&gt;Геополитика&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Захваљујући контроверзном бизнисмену Душку Кнежевићу Црна Гора вероватно улази у највећу кризу од стицања независности. Некада близак сарадник и пријатељ црногорског председника Мила Ђукановића не престаје да открива детаље из времена њихове интензивне сарадње. Нове афере пристижу, а старе још нису изгубиле пажњу јавности, а камоли доживеле судски епилог. Очигледно да Кнежевић није блефирао када је после покретања случаја Коверат изјавио да је то почетак, а да ће јавност тек бити упозната са свим доказима о функционисању мафијашке структуре црногорског господара. Кнежевић тврди да поседује хиљаде минута снимака надзорних камера из своје куће где су забележене инкриминушуће радње не само бројних високих дужносника црногорских власти већ и самог председника Републике.&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/analiza-stanja-politickih-odnosa-u-regionu-u-prvoj-polovini-februara-2019-godine/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/stabilokratija-venecuela-u-previranjima/\&quot;&gt;\r\n            Стабилократија / Венецуела у превирањима        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        13/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/renata/\&quot; title=\&quot;Чланци од ЦЗДС\&quot; rel=\&quot;author\&quot;&gt;ЦЗДС&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__video\&quot;&gt;\r\n            &lt;span href=\&quot;#\&quot; class=\&quot;post-prev__video-icon soc-icon\&quot;&gt;\r\n                &lt;i class=\&quot;fas fa-video\&quot;&gt;&lt;/i&gt;\r\n            &lt;/span&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/emisije/\&quot; rel=\&quot;category tag\&quot;&gt;Емисије&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Ситуација у Венецуели се компликује из дана у дан. Део света признаје Николаса Мадура као председника, а део Хуана Гуаида. Ипак, како је Венецуела као држава са највише потврђених налазишта нафте успела да постане земље са тако великим социјалним проблемима? Да ли је ситуација у овој латиноамеричкој држави доказ о пропасти пројекта &amp;#8222;Социјализма 21. века&amp;#8220; [&amp;hellip;]&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/stabilokratija-venecuela-u-previranjima/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/tribina-sretenjski-ustav-pouke-za-buducnost/\&quot;&gt;\r\n            Трибина: Сретењски устав &amp;#8211; поуке за будућност        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        12/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/renata/\&quot; title=\&quot;Чланци од ЦЗДС\&quot; rel=\&quot;author\&quot;&gt;ЦЗДС&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__video\&quot;&gt;\r\n            &lt;span href=\&quot;#\&quot; class=\&quot;post-prev__video-icon soc-icon\&quot;&gt;\r\n                &lt;i class=\&quot;fas fa-video\&quot;&gt;&lt;/i&gt;\r\n            &lt;/span&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/tribine/\&quot; rel=\&quot;category tag\&quot;&gt;Трибине&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Србија слави Дан државности. Разлог што је баш 15. фебруар одабран за најзначајнији државни празник је, поред Првог српског устанка, и доношење првог српског устава. Сувише либералан за своје доба, под притиском страних сила морао је бити укинут, но остао је као сведочанство српске слободарске мисли и наук будућим генерацијама. Колико данас знамо о Сретењском [&amp;hellip;]&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/tribina-sretenjski-ustav-pouke-za-buducnost/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/vanredni-izbori-u-izraelu-pocetak-trke/\&quot;&gt;\r\n            Ванредни избори у Израелу &amp;#8211; почетак трке        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        12/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/nemanja/\&quot; title=\&quot;Чланци од Немања Старовић\&quot; rel=\&quot;author\&quot;&gt;Немања Старовић&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/analize/\&quot; rel=\&quot;category tag\&quot;&gt;Анализе&lt;/a&gt;/&lt;a href=\&quot;https://czds.rs/kat/analize/geopolitika/\&quot; rel=\&quot;category tag\&quot;&gt;Геополитика&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Анализа стартних позиција политичких странака и коалиција уочи ванредних парламентарних избора у Израелу заказаних за 9. април 2019.&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/vanredni-izbori-u-izraelu-pocetak-trke/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/dzeremi-korbin-nada-ili-iluzija-savremene-britanske-levice/\&quot;&gt;\r\n            ЏЕРЕМИ КОРБИН &amp;#8211; НАДА ИЛИ ИЛУЗИЈА САВРЕМЕНЕ БРИТАНСКЕ ЛЕВИЦЕ        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        11/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/ognjen/\&quot; title=\&quot;Чланци од Огњен Карановић\&quot; rel=\&quot;author\&quot;&gt;Огњен Карановић&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/analize/\&quot; rel=\&quot;category tag\&quot;&gt;Анализе&lt;/a&gt;/&lt;a href=\&quot;https://czds.rs/kat/analize/politicke-biografije/\&quot; rel=\&quot;category tag\&quot;&gt;Политичке биографије&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Још 1999. године, Корбин је изјавио да „косовска криза“ и оптужбе против Србије представљају „лажан геноцид и исфабриковану представу“, да би 2004. године у говору у Парламенту, у потпуности негирао тзв. „српске злочине на Космету“, где је поновио ставове новинара Џона Пилџера „&amp;#8230;о огромном, ненадокнадивом броју изгубљених људских живота које је однела &amp;#8216;хуманитарна&amp;#8217; мисија на Косову, под патронатом НАТО-пакта и САД, уз свесрдну помоћ Велике Британије &amp;#8230; када су без икаквог права и одобрења Уједињених нација напали територију једне суверене земље, како би одбранили оне који су ту земљу покушали да распарчају и униште. После тога, кривце су прогласили жртвама, а Србе, који су праве жртве тог злочина, назвали геноцидним народом&amp;#8230;“. Са говорнице у Парламенту, Корбин је даље нагласио да би: „&amp;#8230;сваком разумном и моралном човеку морало да буде јасно да се геноцид никада није догодио на Косову, и да су НАТО-пакт и Сједињене Америчке Државе своју акцију оправдавали ноторним лажима&amp;#8230;“. Слободана Милошевића, који је био председник Савезне Републике Југославије 1999. године, окарактерисао је као „жртву америчке империјалистичке политике“.&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/dzeremi-korbin-nada-ili-iluzija-savremene-britanske-levice/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/stabilokratija-crnogorski-gambit/\&quot;&gt;\r\n            Стабилократија / Црногорски гамбит        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        06/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/renata/\&quot; title=\&quot;Чланци од ЦЗДС\&quot; rel=\&quot;author\&quot;&gt;ЦЗДС&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__video\&quot;&gt;\r\n            &lt;span href=\&quot;#\&quot; class=\&quot;post-prev__video-icon soc-icon\&quot;&gt;\r\n                &lt;i class=\&quot;fas fa-video\&quot;&gt;&lt;/i&gt;\r\n            &lt;/span&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/emisije/\&quot; rel=\&quot;category tag\&quot;&gt;Емисије&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Афера &amp;#8222;Атлас&amp;#8220; је уздрмала најмлађу чланицу НАТО савеза и покренула спекулације о евентуалним дубинским политичким импликацијама. Ипак, колико је то реално? Како изгледа политичка сцена у Црној Гори, колико је заправо моћан Мило Ђукановић и у каквој је то релацији са црногорским менталитетским особеностима? Фото: Flickr / Österreichisches Außenministerium ДПС функционише по принципу троструког прстена Црногорско [&amp;hellip;]&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/stabilokratija-crnogorski-gambit/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;&lt;div class=\&quot;post-prev sh1-box p-1 \&quot; style=\&quot;width:48%; margin:1px;\&quot;\&quot;&gt;\r\n    &lt;h3 class=\&quot;post-prev__title\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/ceceni-spartanci-21-veka-prvi-deo/\&quot;&gt;\r\n            ЧЕЧЕНИ – СПАРТАНЦИ 21. ВЕКА (први део)        &lt;/a&gt;\r\n    &lt;/h3&gt;\r\n    &lt;div class=\&quot;post-prev__meta d-xl-flex align-items-center\&quot;&gt;\r\n        &lt;div class=\&quot;d-lg-flex align-items-center mb-2 mb-xl-0\&quot;&gt;\r\n            &lt;div class=\&quot;post-prev__date\&quot;&gt;\r\n                &lt;div class=\&quot;czds-date \&quot;&gt;\r\n                    &lt;div class=\&quot;czds-date__num\&quot;&gt;\r\n                        06/02/2019                    &lt;/div&gt;\r\n                &lt;/div&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;post-prev__author\&quot;&gt;\r\n                Аутор :\r\n                &lt;a href=\&quot;https://czds.rs/author/predrag/\&quot; title=\&quot;Чланци од Предраг Рајић\&quot; rel=\&quot;author\&quot;&gt;Предраг Рајић&lt;/a&gt;            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n                &lt;div class=\&quot;post-prev__cat-list\&quot;&gt;\r\n            &lt;i class=\&quot;fas fa-tags\&quot;&gt;&lt;/i&gt;\r\n            &lt;a href=\&quot;https://czds.rs/kat/analize/\&quot; rel=\&quot;category tag\&quot;&gt;Анализе&lt;/a&gt;/&lt;a href=\&quot;https://czds.rs/kat/analize/geopolitika/\&quot; rel=\&quot;category tag\&quot;&gt;Геополитика&lt;/a&gt;        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__body d-none\&quot;&gt;\r\n        &lt;p&gt;Неукротивост, храброст, способност, постојаност, прилагођеност борби. Све су то особине које су им признали чак и непријатељи.&lt;/p&gt;\n    &lt;/div&gt;\r\n    &lt;div class=\&quot;post-prev__read-more d-none\&quot;&gt;\r\n        &lt;a href=\&quot;https://czds.rs/ceceni-spartanci-21-veka-prvi-deo/\&quot;\r\n           class=\&quot;btn btn-outline-primary post-prev__read-more d-none-btn\&quot;&gt;\r\n            Сазнајте више            &lt;i class=\&quot;fas fa-angle-double-right ml-2\&quot;&gt;&lt;/i&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;                            &lt;!-- end of the loop --&gt;\r\n                                                                        &lt;/main&gt;&lt;!-- #main --&gt;\r\n                                        &lt;div class=\&quot;text-center\&quot;&gt;\r\n                        &lt;a class=\&quot;btn btn-home-slider__read-more d-none\&quot;\r\n                           href=\&quot;https://czds.rs/arhiva/\&quot;&gt; Архива објава&lt;/a&gt;\r\n                    &lt;/div&gt;\r\n                &lt;/div&gt;&lt;!-- #primary --&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=\&quot;col-lg-4\&quot;&gt;\r\n                \n&lt;aside id=\&quot;secondary\&quot; class=\&quot;widget-area\&quot;&gt;\n\n    \n    &lt;!--Najava Tribina START--&gt;\n    \n        &lt;!--Najava Tribina END--&gt;\n\n\n        \n    &lt;section id=\&quot;custom_html-9\&quot; class=\&quot;widget_text widget widget_custom_html\&quot;&gt;&lt;div class=\&quot;textwidget custom-html-widget\&quot;&gt;&lt;iframe width=\&quot;96%\&quot; height=\&quot;200\&quot; src=\&quot;https://www.youtube.com/embed/ovy6k5PPMsI\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/section&gt;&lt;section id=\&quot;archives-2\&quot; class=\&quot;widget widget_archive d-none\&quot;&gt;&lt;h2 class=\&quot;widget-title\&quot;&gt;Архива&lt;/h2&gt;\t\t&lt;ul&gt;\n\t\t\t&lt;li&gt;&lt;a href='https://czds.rs/2019/02/'&gt;фебруар 2019&lt;span class=\&quot;archive-count\&quot;&gt;[ 16 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2019/01/'&gt;јануар 2019&lt;span class=\&quot;archive-count\&quot;&gt;[ 20 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/12/'&gt;децембар 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 14 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/11/'&gt;новембар 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 21 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/10/'&gt;октобар 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 22 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/09/'&gt;септембар 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 24 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/08/'&gt;август 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 26 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/07/'&gt;јул 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 8 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/06/'&gt;јун 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 6 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/05/'&gt;мај 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 5 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/04/'&gt;април 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 5 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2018/02/'&gt;фебруар 2018&lt;span class=\&quot;archive-count\&quot;&gt;[ 7 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t&lt;li&gt;&lt;a href='https://czds.rs/2017/12/'&gt;децембар 2017&lt;span class=\&quot;archive-count\&quot;&gt;[ 4 ]&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\n\t\t&lt;/ul&gt;\n\t\t&lt;/section&gt;&lt;/aside&gt;&lt;!-- #secondary --&gt;\n\n            &lt;/div&gt;\r\n        &lt;/div&gt;\r\n\r\n\r\n    &lt;/div&gt;\r\n\r\n\r\n\n&lt;/div&gt;&lt;!-- #content --&gt;\n\n&lt;footer id=\&quot;site-footer\&quot; class=\&quot;site-footer\&quot;&gt;\n    &lt;div class=\&quot;site-footer__inner\&quot;&gt;\n        &lt;div class=\&quot;container\&quot;&gt;\n            &lt;div class=\&quot;row\&quot;&gt;\n                &lt;div class=\&quot;col-lg-6  col-md-12 order-lg-3\&quot;&gt;\n                                        &lt;div class=\&quot;footer-newsletter\&quot;&gt;\n                        &lt;h4 class=\&quot;footer-newsletter__title\&quot;&gt;Обавештења&lt;/h4&gt;\n                        &lt;div class=\&quot;footer-newsletter__desc\&quot;&gt;\n                            Будите обавештени о свим дешавањима у ЦЗСД. Детаљне најаве наших трибина и најновије анализе.                        &lt;/div&gt;\n                        &lt;form class=\&quot;footer-newsletter__form\&quot; method=\&quot;post\&quot; action=\&quot;https://czds.rs/?na=s\&quot;\n                              onsubmit=\&quot;return newsletter_check(this)\&quot;&gt;\n                            &lt;div class=\&quot;input-group mb-3 footer-newsletter__input-group\&quot;&gt;\n                                &lt;input type=\&quot;hidden\&quot; name=\&quot;nlang\&quot; value=\&quot;sr\&quot;&gt;\n                                &lt;input type=\&quot;hidden\&quot; name=\&quot;nr\&quot; value=\&quot;widget\&quot;&gt;\n                                &lt;input type=\&quot;hidden\&quot; name=\&quot;nl[]\&quot; value=\&quot;0\&quot;&gt;\n                                &lt;input type=\&quot;email\&quot;\n                                       class=\&quot;form-control footer-newsletter__input-group-input\&quot;\n                                       name=\&quot;ne\&quot;\n                                       aria-label=\&quot;Newsletter unsubscribe\&quot;\n                                       aria-describedby=\&quot;unsubscribe-button-addon2\&quot;&gt;\n                                &lt;div class=\&quot;input-group-append\&quot;&gt;\n                                    &lt;button class=\&quot;btn  footer-newsletter__input-group-btn\&quot; type=\&quot;submit\&quot;\n                                            id=\&quot;unsubscribe-button-addon2\&quot;&gt;\n                                        &lt;i class=\&quot;fas fa-paper-plane footer-newsletter__btn-icon\&quot;&gt;&lt;/i&gt;\n                                    &lt;/button&gt;\n                                &lt;/div&gt;\n                            &lt;/div&gt;\n                        &lt;/form&gt;\n                    &lt;/div&gt;\n\n                &lt;/div&gt;\n                &lt;div class=\&quot;col-lg-3 col-6 col-md-4 order-lg-1\&quot;&gt;\n                    &lt;section id=\&quot;nav_menu-3\&quot; class=\&quot;widget widget_nav_menu\&quot;&gt;&lt;h2 class=\&quot;widget-title\&quot;&gt;ЦЗДС&lt;/h2&gt;&lt;div class=\&quot;menu-footer-czds-container\&quot;&gt;&lt;ul id=\&quot;menu-footer-czds\&quot; class=\&quot;menu\&quot;&gt;&lt;li id=\&quot;menu-item-49051\&quot; class=\&quot;menu-item menu-item-type-post_type menu-item-object-page menu-item-49051\&quot;&gt;&lt;a href=\&quot;https://czds.rs/o-nama/\&quot;&gt;О нама&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\&quot;menu-item-49052\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49052\&quot;&gt;&lt;a href=\&quot;https://czds.rs/kat/analize/\&quot;&gt;Анализе&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\&quot;menu-item-49053\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49053\&quot;&gt;&lt;a href=\&quot;https://czds.rs/kat/gostovanja/\&quot;&gt;Гостовања&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\&quot;menu-item-49054\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49054\&quot;&gt;&lt;a href=\&quot;https://czds.rs/kat/emisije/\&quot;&gt;Емисије&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\&quot;menu-item-49055\&quot; class=\&quot;menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49055\&quot;&gt;&lt;a href=\&quot;https://czds.rs/kat/tribine/\&quot;&gt;Трибине&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\&quot;menu-item-49056\&quot; class=\&quot;menu-item menu-item-type-post_type menu-item-object-page menu-item-49056\&quot;&gt;&lt;a href=\&quot;https://czds.rs/kontakt/\&quot;&gt;Контакт&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;/div&gt;&lt;/section&gt;                &lt;/div&gt;\n                &lt;div class=\&quot;col-lg-3 col-6 order-lg-2\&quot;&gt;\n                                        &lt;section id=\&quot;nav_menu-cod-author\&quot; class=\&quot;widget widget_nav_menu\&quot;&gt;\n                        &lt;h2 class=\&quot;widget-title\&quot;&gt;Аутори&lt;/h2&gt;\n                        &lt;div class=\&quot;menu-autori-meu-container\&quot;&gt;\n                            &lt;ul id=\&quot;menu-autori-meu\&quot; class=\&quot;menu\&quot;&gt;\n                                                                    &lt;li id=\&quot;menu-item-12\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-12\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/milan/\&quot;&gt;\n                                            Милан Кузмановић                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                                    &lt;li id=\&quot;menu-item-8\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-8\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/nemanja/\&quot;&gt;\n                                            Немања Старовић                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                                    &lt;li id=\&quot;menu-item-10\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-10\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/obrad/\&quot;&gt;\n                                            Обрад Шкрбић                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                                    &lt;li id=\&quot;menu-item-7\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-7\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/ognjen/\&quot;&gt;\n                                            Огњен Карановић                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                                    &lt;li id=\&quot;menu-item-11\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-11\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/petar/\&quot;&gt;\n                                            Петар Ђурђев                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                                    &lt;li id=\&quot;menu-item-5\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-5\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/predrag/\&quot;&gt;\n                                            Предраг Рајић                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                                    &lt;li id=\&quot;menu-item-9\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-9\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/sanja/\&quot;&gt;\n                                            Сања Шифлиш                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                                    &lt;li id=\&quot;menu-item-6\&quot;\n                                        class=\&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-6\&quot;&gt;\n                                        &lt;a href=\&quot;https://czds.rs/author/srdjan/\&quot;&gt;\n                                            Срђан Граовац                                        &lt;/a&gt;\n                                    &lt;/li&gt;\n                                                            &lt;/ul&gt;\n                        &lt;/div&gt;\n                    &lt;/section&gt;\n                &lt;/div&gt;\n            &lt;/div&gt;\n        &lt;/div&gt;\n    &lt;/div&gt;\n&lt;/footer&gt;\n&lt;div class=\&quot;site-bottom-line\&quot;&gt;\n    &lt;div class=\&quot;container\&quot;&gt;\n        &lt;div class=\&quot;row\&quot;&gt;\n            &lt;div class=\&quot;col-lg-4 site-bottom-line__soc-icons-col order-lg-2\&quot;&gt;\n                &lt;div class=\&quot;site-bottom-line__soc-icons\&quot;&gt;\n                    &lt;div class=\&quot;d-flex justify-content-center align-items-center\&quot;&gt;\n                        &lt;a href=\&quot;https://www.facebook.com/centarzadrustvenustabilnost\&quot;\n                           class=\&quot;site-bottom-line__soc-icon soc-icon facebook\&quot; target=\&quot;_blank\&quot;&gt;\n                            &lt;i class=\&quot;fab fa-facebook-f\&quot;&gt;&lt;/i&gt;\n                        &lt;/a&gt;\n                        &lt;a href=\&quot;https://www.youtube.com/channel/UC_U9TPc4Gf5JVkutEyjAbhQ\&quot;\n                           class=\&quot;site-bottom-line__soc-icon soc-icon youtube\&quot; target=\&quot;_blank\&quot;&gt;\n                            &lt;i class=\&quot;fab fa-youtube\&quot;&gt;&lt;/i&gt;\n                        &lt;/a&gt;\n                        &lt;a href=\&quot;https://twitter.com/centarzds\&quot;\n                           class=\&quot;site-bottom-line__soc-icon soc-icon twitter\&quot; target=\&quot;_blank\&quot;&gt;\n                            &lt;i class=\&quot;fab fa-twitter\&quot;&gt;&lt;/i&gt;\n                        &lt;/a&gt;\n                    &lt;/div&gt;\n                &lt;/div&gt;\n            &lt;/div&gt;\n            &lt;div class=\&quot;col-lg-4 order-lg-1 text-center text-lg-left\&quot;&gt;\n                &lt;div class=\&quot;copyright\&quot;&gt;\n                    Copyright © 2018 Сва права задржана                &lt;/div&gt;\n            &lt;/div&gt;\n            &lt;div class=\&quot;col-lg-4 order-lg-3\&quot;&gt;\n                &lt;div class=\&quot;signature text-center text-lg-right\&quot;&gt;\n                    &lt;a class=\&quot;apaone \&quot; href=\&quot;https://www.apaone.com/\&quot;\n                       target=\&quot;_blank\&quot;&gt;Marketing agencija&lt;/a&gt; ApaOne\n                &lt;/div&gt;\n            &lt;/div&gt;\n        &lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;&lt;!-- #page --&gt;\n&lt;script type='text/javascript'&gt;\n/* &lt;![CDATA[ */\nvar wpcf7 = {\&quot;apiSettings\&quot;:{\&quot;root\&quot;:\&quot;https:\\/\\/czds.rs\\/wp-json\\/contact-form-7\\/v1\&quot;,\&quot;namespace\&quot;:\&quot;contact-form-7\\/v1\&quot;},\&quot;recaptcha\&quot;:{\&quot;messages\&quot;:{\&quot;empty\&quot;:\&quot;\\u041c\\u043e\\u043b\\u0438\\u043c\\u043e \\u0432\\u0430\\u0441 \\u043f\\u043e\\u0442\\u0432\\u0440\\u0434\\u0438\\u0442\\u0435 \\u0434\\u0430 \\u043d\\u0438\\u0441\\u0442\\u0435 \\u0440\\u043e\\u0431\\u043e\\u0442.\&quot;}}};\n/* ]]&gt; */\n&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.5'&gt;&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-content/themes/czds/js/navigation.js?ver=20151215'&gt;&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-content/themes/czds/js/skip-link-focus-fix.js?ver=20151215'&gt;&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-content/themes/czds/theme-js/vendor.js?ver=20181022'&gt;&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-content/themes/czds/theme-js/script.js?ver=20181022'&gt;&lt;/script&gt;\n&lt;script type='text/javascript'&gt;\n/* &lt;![CDATA[ */\nvar newsletter = {\&quot;messages\&quot;:{\&quot;email_error\&quot;:\&quot;Email address is not correct\&quot;,\&quot;name_error\&quot;:\&quot;Name is required\&quot;,\&quot;surname_error\&quot;:\&quot;Last name is required\&quot;,\&quot;privacy_error\&quot;:\&quot;You must accept the privacy policy\&quot;},\&quot;profile_max\&quot;:\&quot;20\&quot;};\n/* ]]&gt; */\n&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-content/plugins/newsletter/subscription/validate.js?ver=5.7.4'&gt;&lt;/script&gt;\n&lt;script type='text/javascript' src='https://czds.rs/wp-includes/js/wp-embed.min.js?ver=5.0.3'&gt;&lt;/script&gt;\n\n&lt;/body&gt;\n&lt;/html&gt;\n&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_stat_name.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_stat_name.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_stat_name.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_stat_name.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-anydpi-v24/ic_stat_name.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_001_facebook.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-hdpi/yt.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/menu_burger.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Common/FontAwsome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Header.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/ic_launcher_background.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/contact_form.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="103" column="37" lean-forward="true" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/header.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/recycler_view_item.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/footer.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_czds_logo_200.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_round.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher_round_new.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_launcher_round_new.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="735" selection-start-line="735" selection-end-line="735" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Model/RSSObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Model/Feed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Kontakt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/YouTubeActivity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26090" column="13" selection-start-line="26090" selection-start-column="13" selection-end-line="26090" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-anydpi-v24/icon_512.png" />
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="331">
           <caret line="7375" selection-start-line="7375" selection-end-line="7375" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/Instrumentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="1218" selection-start-line="1218" selection-end-line="1218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_contact.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_vest2.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5287">
-          <caret line="333" column="26" selection-start-line="333" selection-start-column="26" selection-end-line="333" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/menu/main_menu.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Adapter/FeedAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="132" column="81" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/vest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="82" column="47" selection-start-line="80" selection-start-column="8" selection-end-line="82" selection-end-column="47" />
+        <state relative-caret-position="144">
+          <caret line="1219" selection-start-line="1219" selection-end-line="1219" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/ActivityThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50303">
-          <caret line="3193" selection-start-line="3193" selection-end-line="3193" />
+        <state relative-caret-position="185">
+          <caret line="3187" selection-start-line="3187" selection-end-line="3187" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/web_view.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/green_triangle_10x9.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/footerimg2.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/footerimg1_3.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/footerimg123.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_foreground.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/WebViewActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_czds_logo_200.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Common/FontAwsome.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/assets/font.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/assets/noInternet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/201e4c21e337dc3808a518a36042b43e/jars/classes.jar!/android/support/v7/app/AppCompatActivity.class">
+    <entry file="file://$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_stat_name.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.2.1/1af6c988cb07bcd8c086c4f5dbc48aa625316aa6/androidasync-2.2.1-sources.jar!/com/koushikdutta/async/AsyncServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="171">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.2.1/59a774dbeb8afefe068562f148997f11b89ad70b/ion-2.2.1-sources.jar!/com/koushikdutta/ion/IonRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="144">
+          <caret line="246" selection-start-line="246" selection-end-line="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.2.1/1af6c988cb07bcd8c086c4f5dbc48aa625316aa6/androidasync-2.2.1-sources.jar!/com/koushikdutta/async/future/SimpleFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-anydpi-v24/ic_stat_name.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/webkit/WebViewClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Common/HTTPDataHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ikona.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/logo.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/czds/Interface/ItemClickListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_launcher_round_new.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher_round_new.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_stat_name.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_launcher_foreground.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.onesignal/OneSignal/3.5.3/e89a8bc9a7b5d352f4f1a1acabcdc4a8cf934564/OneSignal-3.5.3-sources.jar!/com/onesignal/OneSignal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18258">
+          <caret line="1148" selection-start-line="1148" selection-end-line="1148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.onesignal/OneSignal/3.5.3/e89a8bc9a7b5d352f4f1a1acabcdc4a8cf934564/OneSignal-3.5.3-sources.jar!/com/onesignal/NotificationBundleProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_stat_onesignal_default.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_stat_onesignal_default.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_stat_onesignal_default.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_stat_onesignal_default.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_stat_onesignal_default.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.onesignal/OneSignal/3.5.3/e89a8bc9a7b5d352f4f1a1acabcdc4a8cf934564/OneSignal-3.5.3-sources.jar!/com/onesignal/GcmIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/IntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/centar/zds/Common/NotificationHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/centar/zds/Model/Feed.java" />
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/centar/zds/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/centar/zds/WebViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="116">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#customHtml#0;class#WebViewActivity#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="510">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
   </component>
 </project>
